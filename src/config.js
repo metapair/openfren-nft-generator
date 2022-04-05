@@ -32,8 +32,9 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [
       { name: "Base_Primary" },
+      { name: "Base_Line_Art" },
       { name: "Base_Secondary_01" },
-      { name: "Face_Expression_M" },
+      { name: "Face_Expression_M" },   
     ],
   },
 ];
