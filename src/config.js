@@ -4,7 +4,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 
 const network = NETWORK.sol;
 
-// General metadata for Ethereum
+// General metadata for Ethereum / Solana 
 const namePrefix = "OpenFren Founding Frens";
 const description = "The founding frens collections contains 1700 hand crafted NFTs of Investors & Lawyers in the OpenFren ecosystem";
 const baseUri = "ipfs://NewUriToReplace";
@@ -31,17 +31,12 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Base_Primary" },
+      { name: "Base_Secondary_01" },
+      { name: "Face_Expression_M" },
     ],
   },
 ];
-
 const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
