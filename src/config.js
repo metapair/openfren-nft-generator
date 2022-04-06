@@ -7,7 +7,7 @@ const network = NETWORK.sol;
 // General metadata for Ethereum / Solana 
 const namePrefix = "OpenFren Founding Frens";
 const description = "The founding frens collections contains 1700 hand crafted NFTs of Investors & Lawyers in the OpenFren ecosystem";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://QmPoazAPVxRG5ZhwcwTmNCJo95c6xSdw6tFwwPKnYG575C";
 
 const solanaMetadata = {
   symbol: "OFF",
@@ -16,13 +16,9 @@ const solanaMetadata = {
   // 50% in one account, 50% in another account
   creators: [
     {
-      address: "todo",
-      share: 5,
-    },
-    {
-      address: "todo",
+      address: "todo1",
       share: 50,
-    },
+    }
   ],
 };
 
@@ -43,8 +39,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1748,
+  height: 1748,
   smoothing: false,
 };
 
@@ -73,7 +69,7 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
   static: false,
   default: "#000000",

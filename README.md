@@ -11,7 +11,25 @@ This project generates NFT collections for openfren. The base source code is for
   
 ## Generation
 * Update config with collection configuration
+* Run `yarn generate`
 
 ## Upload and Update 
-* Upload images to ipfs (potentially using pinata or metaplex)
-* Update json metadata with storage
+* Upload images to ipfs (potentially using ipfs , pinata , metaplex)
+* Update json metadata with storage information (CID) and run `yarn update`
+
+## Split mint
+* Split collection in 2
+* Create candy machine with batch 2 and see if this works
+
+
+# Resources
+A collection of resources
+
+## FAQ
+
+Question on solana base URI: https://discord.com/channels/889036571385409556/889627143204655135/961166881518157835
+
+Ignoreing blank images from the metadata: https://discord.com/channels/889036571385409556/889627143204655135/961063953822269470
+## Youtube Videos
+Haslips Eth Master Class: https://www.youtube.com/watch?v=Zhmj4PiJ-GA&t=494s
+

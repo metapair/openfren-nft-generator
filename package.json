@@ -1,7 +1,7 @@
 {
-  "name": "hashlips_art_engine",
+  "name": "openfren_nft_generator",
   "version": "1.1.1",
-  "description": "HashLips Art Engine is a tool used to create multiple different instances of artworks based on provided layers.",
+  "description": "Forked from HashLips Art Engine, this is a tool used to create multiple different instances of artworks based on provided layers.",
   "main": "index.js",
   "bin": "index.js",
   "pkg": {
@@ -22,7 +22,7 @@
     "generate_metadata": "node utils/generate_metadata.js",
     "clean" : "rm -rvf build"
   },
-  "author": "Daniel Eugene Botha (HashLips)",
+  "author": "OpenFren",
   "license": "MIT",
   "dependencies": {
     "canvas": "^2.8.0",
