@@ -16,8 +16,8 @@ const solanaMetadata = {
   // 50% in one account, 50% in another account
   creators: [
     {
-      address: "todo1",
-      share: 50,
+      address: "8DAT4vBjpDixqswJUuFgxtQnCPSQKzUVGPZBmUtofVvL",
+      share: 100,
     }
   ],
 };
